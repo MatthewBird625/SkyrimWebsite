@@ -2,6 +2,10 @@
 html {
     scroll-behavior: smooth;
   }
+
+  body{
+      background-color: rgb(158, 158, 158);
+  }
 .navbar{
     display: flex;
     background-color: rgb(12, 11, 11);
@@ -11,6 +15,7 @@ html {
 }
 .navbar h1{
     padding-left: 20px;
+    padding-top: 5px;
 }
 .header{
     background-color: lightblue;
@@ -72,30 +77,30 @@ p{
     
 .card {
     min-width: 180px;
+    padding-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;    
     align-items: center;
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(204, 203, 203, 0.2);
     transition: 0.3s;
     color: white;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
+    border-radius: 15px;
 
   }
   
-  /* On mouse-over, add a deeper shadow */
+  
   .card:hover {
     box-shadow: 0 16px 16px 0 rgba(247, 247, 247, 0.2);
   }
 
-  /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
   
   }
   .card p{
-      font-size: 16px;
+      font-size: 20px;
       font-weight: bold;
       
       text-align: center;
@@ -123,7 +128,7 @@ p{
     color: white;
 }
 button {
-    background-color: #4a4b4a; /* Green */
+    background-color: #4a4b4a; 
     border: none;
     color: white;
     font-style: italic;
@@ -132,10 +137,56 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 20px;
   }
   button:hover {
     color: rgb(255, 136, 0);
 
+  }
+
+  .theHunt{
+      background-color: blue;
+  }
+
+
+  .theMessage{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white;
+      width:80%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      border-radius: 25px;
+     
+  }
+
+  .theMessageText{
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+ 
+  }
+
+  .theMessageText p{
+      margin-top: -20px;
+  }
+
+  .footer p{
+      margin: 5px;
+  }
+
+  .footer{
+      background-color: rgb(8, 8, 8);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
 
 .parallax {
@@ -146,3 +197,5 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
