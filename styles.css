@@ -190,7 +190,7 @@ button {
   }
 
 .parallax {
-    background-image: url("../SkyrimWebsite/images/gandalfNod.gif");
+    background-image: url("images/gandalfNod.gif");
     min-height: 700px;
     background-attachment: fixed;
     background-position: center;
